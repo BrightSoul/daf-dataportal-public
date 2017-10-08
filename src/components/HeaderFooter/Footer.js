@@ -19,15 +19,14 @@ export const Footer = () => (
                   </p>
                 </div>
                 <div className="Grid-cell u-layout-centerLeft u-padding-r-bottom">
-                <div className="Grid">
-                    <div className="u-inlineBlock">
+                <div>
                       <img className="u-padding-top-xxs u-padding-right-xs" src="https://teamdigitale.governo.it/images/loghi/governo.svg" alt="" style={styleImg}/>
+					  <figure className="u-inlineBlock">
                       <img className="u-padding-top-xxs u-padding-right-xxs" src="https://developers.italia.it/assets/icons/dt-logo.svg" alt="" style={styleImg}/>
-                    </div>
-                    <div className="Grid-cell u-size1of12 u-padding-left-none team-bar"></div>
-                    <p className="Grid-cell u-size5of12 Footer-siteName u-padding-left-xs u-text-r-xs">
-                      TEAM PER LA TRASFORMAZIONE DIGITALE
-                    </p>
+                    <figcaption className="u-inlineBlock u-padding-left-xs u-text-r-xs u-text-team">
+                      TEAM PER LA<br />TRASFORMAZIONE<br />DIGITALE
+                    </figcaption>
+					</figure>
                   </div>
                 </div>
 

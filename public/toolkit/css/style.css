@@ -250,3 +250,8 @@ a:hover Icon-* {
     padding-top: 0 !important;
     border-bottom: 1px solid #127ae2;
 }
+
+/* FOOTER */
+.u-text-team {
+	line-height:2.2rem;
+}
